@@ -32,7 +32,7 @@ uv run agent "Summarise what this repository does" --workspace ../03-fastapi-fea
 
 Do not edit `tests/acceptance.py` or the `test_acceptance_*.py` files.
 
-## Where things are
+## Important locations
 
 | What | Where |
 |---|---|
@@ -77,3 +77,7 @@ the existing structure. Do not edit the tests." --workspace /tmp/fare-watch
 ```
 
 Review every edit yourself, then give omp the same prompt on a fresh copy. Done when `tests/test_feature_cache.py` passes in the copy without breaking other tests, and you can say how your agent compared with omp.
+
+## Bonus: reasoning mode
+
+Add a `--reasoning` flag that lets the model think before it answers or calls a tool. Print its reasoning on the console, separate from its answer. Compare a capstone run with and without it: steps, tokens, cost and result.
