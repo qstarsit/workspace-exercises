@@ -1,0 +1,91 @@
+{
+  "origin": "EIN",
+  "destination": "AGP",
+  "tier": "guest",
+  "window_start": "2026-11-25",
+  "window_end": "2027-11-25",
+  "count": 5,
+  "generated_at": "2026-11-25T10:48:48.442103Z",
+  "days": [
+    {
+      "outbound_date": "2026-11-25",
+      "fare": {
+        "origin": "EIN",
+        "destination": "AGP",
+        "outbound_date": "2026-11-25",
+        "departure": "2026-11-25T12:30:00Z",
+        "arrival": "2026-11-25T15:25:00Z",
+        "price": "169.99",
+        "currency": "EUR",
+        "flight_number": "",
+        "observed_at": "2026-11-25T06:07:16.412319Z",
+        "data_age_seconds": 16892,
+        "freshness": "stale"
+      }
+    },
+    {
+      "outbound_date": "2026-11-26",
+      "fare": {
+        "origin": "EIN",
+        "destination": "AGP",
+        "outbound_date": "2026-11-26",
+        "departure": "2026-11-26T12:45:00Z",
+        "arrival": "2026-11-26T15:40:00Z",
+        "price": "142.24",
+        "currency": "EUR",
+        "flight_number": "",
+        "observed_at": "2026-11-25T06:07:16.412319Z",
+        "data_age_seconds": 16892,
+        "freshness": "stale"
+      }
+    },
+    {
+      "outbound_date": "2026-11-27",
+      "fare": {
+        "origin": "EIN",
+        "destination": "AGP",
+        "outbound_date": "2026-11-27",
+        "departure": "2026-11-27T10:55:00Z",
+        "arrival": "2026-11-27T13:50:00Z",
+        "price": "171.09",
+        "currency": "EUR",
+        "flight_number": "",
+        "observed_at": "2026-11-25T06:07:16.412319Z",
+        "data_age_seconds": 16892,
+        "freshness": "stale"
+      }
+    },
+    {
+      "outbound_date": "2026-11-28",
+      "fare": {
+        "origin": "EIN",
+        "destination": "AGP",
+        "outbound_date": "2026-11-28",
+        "departure": "2026-11-28T12:00:00Z",
+        "arrival": "2026-11-28T14:55:00Z",
+        "price": "78.12",
+        "currency": "EUR",
+        "flight_number": "",
+        "observed_at": "2026-11-25T06:07:16.412319Z",
+        "data_age_seconds": 16892,
+        "freshness": "stale"
+      }
+    },
+    {
+      "outbound_date": "2026-11-29",
+      "fare": {
+        "origin": "EIN",
+        "destination": "AGP",
+        "outbound_date": "2026-11-29",
+        "departure": "2026-11-29T18:05:00Z",
+        "arrival": "2026-11-29T21:00:00Z",
+        "price": "67.89",
+        "currency": "EUR",
+        "flight_number": "",
+        "observed_at": "2026-11-25T06:07:16.412319Z",
+        "data_age_seconds": 16892,
+        "freshness": "stale"
+      }
+    }
+  ]
+}

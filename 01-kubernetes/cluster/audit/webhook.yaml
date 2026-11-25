@@ -1,0 +1,16 @@
+# The API server runs on the node and cannot resolve cluster DNS, so it calls
+# Falco's Service on a fixed ClusterIP (see ../../falco/falco.yaml).
+apiVersion: v1
+kind: Config
+clusters:
+  - name: falco
+    cluster:
+      server: http://10.43.0.250:9765/k8s-audit
+contexts:
+  - name: default
+    context:
+      cluster: falco
+      user: ""
+current-context: default
+preferences: {}
+users: []

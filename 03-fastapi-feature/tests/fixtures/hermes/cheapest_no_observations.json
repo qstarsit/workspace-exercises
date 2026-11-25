@@ -1,0 +1,8 @@
+{
+  "origin": "EIN",
+  "destination": "AGP",
+  "reason": "no_observations_yet",
+  "message": "route is active but no fare observations are available yet",
+  "last_observed_at": "2026-11-25T06:07:16.412319Z",
+  "hint": "scraper has run but found no fares in the configured window; try a specific date via ?on=YYYY-MM-DD"
+}

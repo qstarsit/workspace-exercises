@@ -1,0 +1,124 @@
+# Falco reading Kubernetes audit events (no kernel driver, no privileges).
+# The API server sends audit events to the Service below (cluster/audit/webhook.yaml).
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: falco
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: falco-config
+  namespace: falco
+data:
+  falco.yaml: |
+    engine:
+      kind: nodriver
+    config_files: []
+    plugins:
+      - name: k8saudit
+        library_path: /plugins/libk8saudit.so
+        init_config: ""
+        open_params: "http://:9765/k8s-audit"
+      - name: json
+        library_path: /plugins/libjson.so
+    load_plugins: [k8saudit, json]
+    rules_files:
+      - /etc/falco/workshop/workshop-rules.yaml
+    priority: debug
+    buffered_outputs: false
+    log_stderr: true
+    log_level: info
+    json_output: false
+    stdout_output:
+      enabled: true
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: falco
+  namespace: falco
+  labels:
+    app.kubernetes.io/name: falco
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: falco
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: falco
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      initContainers:
+        # Pinned plugins from Falco's CDN (ghcr.io rate-limits a room full of
+        # people pulling at once)
+        - name: install-plugins
+          image: docker.io/library/alpine:3.24.4
+          command: ["sh", "-ec"]
+          args:
+            - |
+              for p in k8saudit-0.18.0 json-0.7.4; do
+                wget -qO- "https://download.falco.org/plugins/stable/$p-linux-$(uname -m).tar.gz" \
+                  | tar -xz -C /plugins
+              done
+              ls /plugins
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: [ALL]
+          volumeMounts:
+            - name: plugins
+              mountPath: /plugins
+      containers:
+        - name: falco
+          image: docker.io/falcosecurity/falco:0.45.2
+          args: ["falco", "-c", "/etc/falco/config/falco.yaml"]
+          env:
+            # No host mounts: Falco only reads audit events, not the host
+            - name: HOST_ROOT
+              value: /
+          ports:
+            - name: audit
+              containerPort: 9765
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: [ALL]
+          volumeMounts:
+            - name: plugins
+              mountPath: /plugins
+            - name: config
+              mountPath: /etc/falco/config
+            - name: rules
+              mountPath: /etc/falco/workshop
+      volumes:
+        - name: plugins
+          emptyDir: {}
+        - name: config
+          configMap:
+            name: falco-config
+        - name: rules
+          configMap:
+            name: falco-workshop-rules
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: falco-audit
+  namespace: falco
+spec:
+  # Fixed address: the API server cannot use cluster DNS
+  clusterIP: 10.43.0.250
+  selector:
+    app.kubernetes.io/name: falco
+  ports:
+    - name: audit
+      port: 9765
+      targetPort: audit

@@ -1,0 +1,8 @@
+{
+  "origin": "EIN",
+  "destination": "XXX",
+  "reason": "route_unknown",
+  "message": "no Ryanair route matches this origin/destination pair",
+  "last_observed_at": null,
+  "hint": "try /api/v1/routes/?origin=EIN to list valid destinations"
+}

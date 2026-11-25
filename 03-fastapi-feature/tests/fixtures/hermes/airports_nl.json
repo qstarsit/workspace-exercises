@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "iata": "AMS",
+      "name": "Amsterdam",
+      "country_code": "nl",
+      "city_code": "AMSTERDAM",
+      "region_code": "DEFAULT_NL",
+      "currency": "EUR",
+      "time_zone": "Europe/Amsterdam",
+      "is_base": false,
+      "latitude": 52.3105,
+      "longitude": 4.76827
+    },
+    {
+      "iata": "EIN",
+      "name": "Eindhoven",
+      "country_code": "nl",
+      "city_code": "EINDHOVEN",
+      "region_code": "NORTH_BRABANT",
+      "currency": "EUR",
+      "time_zone": "Europe/Amsterdam",
+      "is_base": true,
+      "latitude": 51.4501,
+      "longitude": 5.37453
+    }
+  ],
+  "count": 2,
+  "limit": 100,
+  "offset": 0,
+  "has_more": false,
+  "generated_at": "2026-11-25T10:48:42.160544Z"
+}

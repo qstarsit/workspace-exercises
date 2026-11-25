@@ -1,0 +1,36 @@
+apiVersion: audit.k8s.io/v1
+kind: Policy
+# One event per request: long-running requests like exec also emit ResponseStarted
+omitStages: [RequestReceived, ResponseStarted]
+rules:
+  # kubectl exec/attach/port-forward use WebSockets, so they arrive as "get".
+  # Record them before the read-only filter below drops every get.
+  - level: Metadata
+    resources:
+      - group: ""
+        resources: [pods/exec, pods/attach, pods/portforward]
+  # Skip noisy read-only and system traffic
+  - level: None
+    verbs: [get, list, watch]
+  - level: None
+    users: ["system:kube-proxy", "system:apiserver"]
+  - level: None
+    userGroups: ["system:nodes"]
+  - level: None
+    resources:
+      - group: coordination.k8s.io
+        resources: [leases]
+      - group: ""
+        resources: [events]
+  # Full request bodies for workloads, so Falco can inspect pod specs
+  - level: RequestResponse
+    resources:
+      - group: ""
+        resources: [pods, pods/exec, pods/attach, pods/portforward, services, configmaps, secrets]
+      - group: apps
+        resources: [deployments, daemonsets, statefulsets]
+      - group: networking.k8s.io
+        resources: [networkpolicies]
+      - group: rbac.authorization.k8s.io
+        resources: [roles, rolebindings, clusterroles, clusterrolebindings]
+  - level: Metadata

@@ -1,0 +1,1823 @@
+{
+  "origin": "EIN",
+  "destination": "AGP",
+  "tier": "guest",
+  "window_start": "2026-08-27T10:48:48.897666Z",
+  "count": 302,
+  "has_more": false,
+  "generated_at": "2026-11-25T10:48:49.027965Z",
+  "points": [
+    {
+      "observed_at": "2026-09-11T00:01:34.211212Z",
+      "price": "76.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-11T06:01:59.903437Z",
+      "price": "76.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-11T12:02:03.575486Z",
+      "price": "76.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-11T18:01:55.264975Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-12T00:02:19.117299Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-12T06:02:11.976677Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-12T12:01:54.442626Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-12T18:02:22.950830Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-13T00:01:54.730726Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-13T06:02:28.241348Z",
+      "price": "75.24",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-13T12:02:03.173579Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-13T18:03:16.517741Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-14T00:02:51.781474Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-14T06:02:11.087234Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-14T12:02:15.009680Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-14T18:02:35.345419Z",
+      "price": "73.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-15T00:03:11.970696Z",
+      "price": "74.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-15T06:02:13.745450Z",
+      "price": "74.67",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-15T12:01:59.828890Z",
+      "price": "65.28",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-15T18:03:05.719795Z",
+      "price": "66.23",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-16T00:02:35.349480Z",
+      "price": "71.83",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-16T06:02:18.375540Z",
+      "price": "71.83",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-16T12:02:25.191273Z",
+      "price": "74.65",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-16T18:02:34.631719Z",
+      "price": "74.65",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-17T00:02:27.249766Z",
+      "price": "69.05",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-17T06:02:13.523522Z",
+      "price": "69.05",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-17T12:01:56.909236Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-17T18:02:05.536929Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-18T00:03:07.663107Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-18T06:03:06.219075Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-18T12:02:11.874575Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-18T18:02:55.506101Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-19T00:08:50.768303Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-19T06:02:09.638733Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-19T12:02:31.702633Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-19T18:02:54.911781Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-20T00:02:18.446789Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-20T06:02:39.616065Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-20T12:02:11.001292Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-20T18:02:55.064942Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-21T00:02:31.048704Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-21T06:02:09.178989Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-21T12:02:01.354196Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-21T18:02:26.822318Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-22T00:02:33.795158Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-22T06:02:53.749536Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-22T12:02:17.652544Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-22T18:02:43.439197Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-23T00:02:44.171181Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-23T06:02:15.820573Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-23T12:02:46.874063Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-23T18:03:04.664041Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-24T00:01:54.903597Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-24T06:02:00.228332Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-24T12:02:02.604814Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-24T18:02:29.941624Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-25T00:02:42.753459Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-25T06:02:05.198456Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-25T12:02:03.057838Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-25T18:02:04.000533Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-26T00:02:20.439422Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-26T06:02:58.059157Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-26T12:02:41.336921Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-26T18:02:25.240533Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-27T00:02:13.682733Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-27T06:02:27.924097Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-27T12:02:41.637052Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-27T18:02:37.708543Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-28T00:01:57.703166Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-28T06:02:19.403707Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-28T12:02:32.758684Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-28T18:03:21.352554Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-29T00:02:47.882959Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-29T06:02:35.369596Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-29T12:02:03.508080Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-29T18:02:25.295334Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-30T00:01:52.080327Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-30T06:02:09.461016Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-30T12:02:15.646967Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-09-30T18:03:20.320548Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-01T00:02:09.574402Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-01T06:02:37.938252Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-01T12:02:08.570622Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-01T18:03:09.922140Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-02T00:02:05.193412Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-02T06:02:10.408022Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-02T12:02:36.797927Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-02T18:02:45.576819Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-03T00:09:48.987377Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-03T06:01:53.060463Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-03T12:02:20.923819Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-03T18:02:23.395923Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-04T00:02:02.849883Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-04T06:01:59.041201Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-04T12:02:07.367021Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-04T18:02:14.346377Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-05T00:02:22.801677Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-05T06:02:14.897059Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-05T12:02:03.456265Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-05T18:03:20.121179Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-06T00:03:03.809437Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-06T06:02:12.220020Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-06T12:02:18.150738Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-06T18:02:53.059151Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-07T00:02:12.744173Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-07T06:01:46.766066Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-07T12:01:39.891312Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-07T18:02:15.219011Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-08T00:02:33.669557Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-08T06:02:44.899422Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-08T12:02:26.368480Z",
+      "price": "63.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-08T18:03:03.870760Z",
+      "price": "64.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-09T00:02:13.808188Z",
+      "price": "67.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-09T06:01:56.961110Z",
+      "price": "67.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-09T12:02:45.819086Z",
+      "price": "67.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-09T18:02:43.055983Z",
+      "price": "69.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-10T00:07:15.523803Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-10T06:01:52.211727Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-10T12:02:27.378061Z",
+      "price": "72.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-10T18:03:01.756325Z",
+      "price": "72.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-11T00:02:39.414248Z",
+      "price": "72.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-11T06:02:26.523414Z",
+      "price": "72.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-11T12:02:48.676363Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-11T18:03:14.677000Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-12T00:02:47.021039Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-12T06:02:39.736564Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-12T12:01:55.977571Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-12T18:02:47.535260Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-13T00:02:15.099568Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-13T06:02:20.971729Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-13T12:01:57.040161Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-13T18:02:24.894989Z",
+      "price": "73.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-14T00:02:20.238324Z",
+      "price": "76.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-14T06:02:14.880621Z",
+      "price": "76.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-14T12:02:00.232381Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-14T18:02:30.927879Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-15T00:02:24.929817Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-15T06:01:41.542141Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-15T12:02:31.535996Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-15T18:03:04.020880Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-16T00:02:07.141654Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-16T06:02:01.571749Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-16T12:02:20.535618Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-16T18:02:30.014948Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-17T00:02:14.049455Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-17T06:01:56.917007Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-17T12:01:40.597166Z",
+      "price": "75.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-17T18:03:05.157711Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-18T00:02:18.581796Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-18T06:02:03.540541Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-18T12:02:46.280947Z",
+      "price": "69.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-18T18:02:41.890361Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-19T00:02:18.507662Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-19T06:02:56.566818Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-19T12:02:30.851632Z",
+      "price": "70.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-19T18:02:43.362658Z",
+      "price": "66.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-20T00:01:43.904712Z",
+      "price": "65.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-20T06:02:16.107355Z",
+      "price": "65.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-20T12:02:07.744274Z",
+      "price": "69.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-20T18:03:19.740454Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-21T00:01:54.690608Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-21T06:02:17.378016Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-21T12:02:13.629887Z",
+      "price": "74.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-21T18:02:48.815837Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-22T00:03:07.896508Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-22T06:02:09.225919Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-22T12:02:50.785498Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-22T18:02:34.449650Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-23T00:01:59.799036Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-23T06:01:59.928396Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-23T12:01:42.516185Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-23T18:02:54.941284Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-24T00:02:32.483041Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-24T06:01:55.722915Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-24T12:02:26.288945Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-24T18:03:09.766041Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-25T00:02:00.865299Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-25T06:03:28.436955Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-25T12:03:00.464004Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-25T18:03:02.804679Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-26T00:02:45.640159Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-26T06:02:56.744647Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-26T12:02:48.716960Z",
+      "price": "99.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-26T18:03:32.851789Z",
+      "price": "98.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-27T00:03:43.191305Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-27T06:04:01.281432Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-27T12:02:51.929198Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-27T18:03:44.210210Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-28T00:02:57.510281Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-28T06:03:02.455716Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-28T12:03:19.209179Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-28T18:03:20.203692Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-29T00:04:20.834946Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-29T06:03:34.272153Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-29T12:03:23.158848Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-29T18:03:35.583311Z",
+      "price": "79.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-30T00:02:50.666002Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-30T06:03:32.391941Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-30T12:03:29.171862Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-30T18:03:37.445217Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-31T00:03:03.037770Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-31T06:03:06.432264Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-31T12:03:33.554909Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-10-31T18:03:31.321045Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-01T00:02:47.607335Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-01T06:03:36.432142Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-01T12:03:38.364607Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-01T18:03:57.516271Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-02T00:02:49.666649Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-02T06:02:02.268899Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-02T12:01:57.571602Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-02T18:03:46.340028Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-03T00:01:34.840215Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-03T06:01:53.898056Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-03T12:01:42.977425Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-03T18:01:44.608797Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-04T00:02:02.693464Z",
+      "price": "91.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-04T06:01:34.266986Z",
+      "price": "91.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-04T12:01:49.916730Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-04T18:01:52.694281Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-05T00:01:23.226692Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-05T06:01:55.865550Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-05T12:01:42.258803Z",
+      "price": "91.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-05T18:01:33.518944Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-06T00:01:58.318362Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-06T06:02:18.041851Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-06T12:01:42.187239Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-06T18:01:10.211017Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-07T00:01:26.860996Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-07T06:02:06.416279Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-07T12:01:40.281348Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-07T18:01:37.135427Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-08T00:01:20.351052Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-08T06:01:03.307786Z",
+      "price": "84.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-08T12:01:43.432548Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-08T18:01:34.795847Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-09T00:01:39.986152Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-09T06:01:40.236574Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-09T12:01:08.845999Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-09T18:01:47.284879Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-10T00:01:26.243669Z",
+      "price": "97.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-10T06:07:35.525731Z",
+      "price": "97.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-10T12:01:43.891155Z",
+      "price": "95.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-10T18:01:18.453196Z",
+      "price": "95.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-11T00:01:40.371061Z",
+      "price": "101.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-11T06:00:58.119435Z",
+      "price": "101.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-11T12:00:40.951911Z",
+      "price": "95.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-11T18:01:15.774923Z",
+      "price": "95.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-12T00:00:54.958347Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-12T06:01:07.627709Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-12T12:01:08.331402Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-12T18:01:05.327442Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-13T00:01:16.793877Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-13T06:01:06.593487Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-13T12:01:03.469501Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-13T18:01:22.592663Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-14T00:01:10.029282Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-14T06:01:07.855239Z",
+      "price": "87.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-14T12:01:05.539077Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-14T18:01:15.460595Z",
+      "price": "88.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-15T00:07:13.125528Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-15T06:01:10.594227Z",
+      "price": "85.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-15T12:01:08.815435Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-15T18:07:19.323984Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-16T00:01:09.520388Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-16T06:01:10.843625Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-16T12:01:19.819527Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-16T18:07:18.860687Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-17T00:01:02.973538Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-17T06:01:19.595374Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-17T12:01:01.396964Z",
+      "price": "89.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-17T18:01:13.988786Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-18T00:01:18.611924Z",
+      "price": "93.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-18T06:01:14.712496Z",
+      "price": "93.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-18T12:01:20.310268Z",
+      "price": "92.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-18T18:01:16.115502Z",
+      "price": "94.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-19T00:01:15.548335Z",
+      "price": "93.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-19T06:07:15.421164Z",
+      "price": "93.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-19T12:01:03.961138Z",
+      "price": "86.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-19T18:01:21.132949Z",
+      "price": "83.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-20T00:01:19.445018Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-20T06:01:01.804190Z",
+      "price": "82.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-20T12:01:07.383240Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-20T18:01:07.394511Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-21T00:01:26.204407Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-21T06:01:11.936411Z",
+      "price": "77.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-21T12:00:44.687300Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-21T18:01:01.695373Z",
+      "price": "80.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-22T00:01:16.584007Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-22T06:01:14.401009Z",
+      "price": "78.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-22T12:01:05.838128Z",
+      "price": "81.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-22T18:01:21.718673Z",
+      "price": "90.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-23T00:07:18.400097Z",
+      "price": "96.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-23T06:01:01.228219Z",
+      "price": "96.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-23T12:00:47.214312Z",
+      "price": "97.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-23T18:01:04.092198Z",
+      "price": "109.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-24T00:01:18.818507Z",
+      "price": "109.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-24T06:01:25.098205Z",
+      "price": "109.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-24T12:01:14.151051Z",
+      "price": "103.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-24T18:32:15.277009Z",
+      "price": "106.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-25T00:01:21.894433Z",
+      "price": "106.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    },
+    {
+      "observed_at": "2026-11-25T06:07:16.412319Z",
+      "price": "106.99",
+      "currency": "EUR",
+      "outbound_date": "2026-12-10"
+    }
+  ]
+}

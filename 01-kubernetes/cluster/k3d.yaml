@@ -1,0 +1,41 @@
+# k3d cluster for exercise 1. Create it on your own machine (not in the dev
+# container): k3d cluster create --config k3d.yaml
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: workshop
+servers: 1
+agents: 0
+kubeAPI:
+  hostPort: "6550"
+options:
+  k3d:
+    wait: true
+    timeout: 240s
+    disableLoadbalancer: true
+  k3s:
+    extraArgs:
+      # The dev container reaches the API as host.containers.internal
+      - arg: --tls-san=host.containers.internal
+        nodeFilters: [server:*]
+      # Rootless Podman: the kubelet runs in a user namespace
+      - arg: --kubelet-arg=feature-gates=KubeletInUserNamespace=true
+        nodeFilters: [server:*]
+      - arg: --kube-proxy-arg=conntrack-max-per-core=0
+        nodeFilters: [server:*]
+      # Send Kubernetes audit events to Falco (see ../falco)
+      - arg: --kube-apiserver-arg=audit-policy-file=/etc/rancher/k3s/audit/policy.yaml
+        nodeFilters: [server:*]
+      - arg: --kube-apiserver-arg=audit-webhook-config-file=/etc/rancher/k3s/audit/webhook.yaml
+        nodeFilters: [server:*]
+      - arg: --kube-apiserver-arg=audit-webhook-batch-max-wait=1s
+        nodeFilters: [server:*]
+files:
+  - description: Audit policy
+    source: audit/policy.yaml
+    destination: /etc/rancher/k3s/audit/policy.yaml
+    nodeFilters: [server:*]
+  - description: Audit webhook pointing at Falco
+    source: audit/webhook.yaml
+    destination: /etc/rancher/k3s/audit/webhook.yaml
+    nodeFilters: [server:*]

@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: falco-workshop-rules
+  namespace: falco
+data:
+  workshop-rules.yaml: |
+    - required_plugin_versions:
+        - name: k8saudit
+          version: 0.1.0
+        - name: json
+          version: 0.1.0
+
+    # Should fire whenever someone opens a shell (kubectl exec) in a pod
+    # in the shop namespace. It never does.
+    - rule: Shell into shop pod
+      desc: Someone ran kubectl exec into a pod in the shop namespace
+      condition: >
+        ka.verb=create
+        and ka.target.resource=exec
+        and ka.target.namespace=shop-prod
+      output: >
+        kubectl exec into shop pod
+        (user=%ka.user.name pod=%ka.target.name ns=%ka.target.namespace
+        command=%ka.uri.param[command])
+      priority: WARNING
+      source: k8s_audit
+      tags: [workshop, k8s]
