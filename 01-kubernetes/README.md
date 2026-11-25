@@ -2,10 +2,6 @@
 
 A small shop runs on a local k3d cluster: an `api` (podinfo) behind an nginx `frontend`, locked down with network policies and watched by Falco. It does not work. Make it work, using `kubectl`, `k9s`, `sofka` and your agent (`omp`, which reaches the cluster through its Kubernetes MCP server).
 
-## Time budget
-
-About 75 minutes: setup ~15 minutes (including host preparation), tasks ~60 minutes.
-
 ## Setup
 
 ### 1. Prepare Podman for k3d (once, on your machine)
@@ -69,25 +65,16 @@ kubectl -n shop port-forward svc/frontend 8080:80 &
 
 ## Tasks
 
-Work with your agent; have it explain what it sees before it changes anything.
-
 1. **Make the shop work.**
-   Constraint: no NetworkPolicy may be deleted or made allow-all.
-   Accepted when `curl -i http://127.0.0.1:8080/` returns HTTP 200 with the podinfo JSON.
+   Don't delete a NetworkPolicy or make one allow-all. Done when `curl -i http://127.0.0.1:8080/` returns HTTP 200 with the podinfo JSON.
 
 2. **Make the Falco rule fire.** The rule `Shell into shop pod` must raise a warning whenever someone runs `kubectl exec` in a pod in the `shop` namespace.
-   After changing the rule, apply it and restart Falco:
+   Apply changes with:
    ```bash
    kubectl apply -f falco/
    kubectl -n falco rollout restart deploy/falco
    ```
-   Accepted when, after `kubectl -n shop exec deploy/api -- ls /`, the command `kubectl -n falco logs deploy/falco | grep "exec into shop pod"` prints a line.
-
-## Done when
-
-- `curl -i http://127.0.0.1:8080/` returns HTTP 200 with the podinfo JSON.
-- Every NetworkPolicy from `app/2-network-policies.yaml` still exists and none allows all traffic.
-- A `kubectl exec` into a `shop` pod produces an `exec into shop pod` line in the Falco logs.
+   Done when, after `kubectl -n shop exec deploy/api -- ls /`, the command `kubectl -n falco logs deploy/falco | grep "exec into shop pod"` prints a line.
 
 ## Clean up
 
