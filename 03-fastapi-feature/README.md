@@ -9,11 +9,6 @@ uv sync
 uv run pytest      # only tests/test_feature_*.py fail
 ```
 
-## Reference
-
-- Hermes price history of one outbound date: `GET /api/v1/routes/{origin}/{destination}/history?outbound_date=YYYY-MM-DD&limit=1000`. Recorded payloads are in `tests/fixtures/hermes/`.
-- New endpoints handle `origin` and `destination` like `/fares`, including `404` for an unknown route. Invalid input returns `422`, a Hermes error `502`, a Hermes timeout `504`.
-
 ## Tasks
 
 ### 1. Deal check
