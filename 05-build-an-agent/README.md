@@ -2,6 +2,26 @@
 
 This folder holds a small working coding agent: a Converse loop on Bedrock with two read-only tools. Give it tools to search, test and edit code safely, then let it fix part of exercise 3.
 
+## Bedrock
+
+Everything is preset for the workshop: the endpoint is `https://bedrock-runtime.eu-north-1.amazonaws.com`, and the key is read from `AWS_BEARER_TOKEN_BEDROCK`, or from `~/.omp/agent/.env` where `set-key` stored it. To use another key or region:
+
+```bash
+export AWS_BEARER_TOKEN_BEDROCK=<your workshop key>
+export AWS_REGION=eu-north-1
+```
+
+Your key works with these models; pick one with `--model MODEL_ID`:
+
+| Model ID | Notes | USD per 1M tokens (in / out) |
+|---|---|---|
+| `zai.glm-5` | default | 1.20 / 3.84 |
+| `zai.glm-4.7` | faster, cheaper | 0.72 / 2.64 |
+| `openai.gpt-oss-120b-1:0` | cheapest | 0.15 / 0.60 |
+| `global.moonshotai.kimi-k3` | largest, most expensive | 3.00 / 15.00 |
+
+Each key has a budget of about €25.
+
 ## Setup
 
 ```bash
@@ -11,6 +31,21 @@ uv run agent "Summarise what this repository does" --workspace ../03-fastapi-fea
 ```
 
 Do not edit `tests/acceptance.py` or the `test_acceptance_*.py` files.
+
+## Where things are
+
+| What | Where |
+|---|---|
+| System prompt | `SYSTEM_PROMPT` in `src/agent/loop.py` |
+| The agent loop (model call, tool calls, results back) | `Agent.run` in `src/agent/loop.py` |
+| Tools | `src/agent/tools.py`. A tool is a function decorated with `@registry.register`; its first parameter is the `ToolContext`, the rest become the tool's arguments. |
+| What the model sees of a tool | The function name, the type hints, and the Google-style docstring (summary and `Args:`), turned into a JSON schema by `src/agent/registry.py` |
+| Errors the model should see | Raise `ToolError` from a tool; the model gets the message with `status: error` |
+| Workspace boundary | `Workspace.resolve` in `src/agent/workspace.py` |
+| Bedrock call (Converse API) | `BedrockClient` in `src/agent/model.py` |
+| What is printed per step | `ConsoleReporter` in `src/agent/console.py` |
+| Command-line flags | `parse_args` in `src/agent/cli.py` |
+| Tests without Bedrock | `ScriptedClient`, `text_turn` and `tool_turn` in `tests/support.py` replay prepared model turns |
 
 ## Tasks
 

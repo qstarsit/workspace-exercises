@@ -16,6 +16,26 @@ In this exercise you distil GLM-5 into SmolLM2-135M: GLM-5 is the teacher that w
 
 The output rules (the four intents, which airports exist, and how dates are resolved against a fixed today of Wednesday 2026-11-25) are in `FULL_SYSTEM_PROMPT` in `src/ftw/prompt.py`.
 
+## Bedrock
+
+Everything is preset for the workshop: the endpoint is `https://bedrock-runtime.eu-north-1.amazonaws.com`, and the key is read from `AWS_BEARER_TOKEN_BEDROCK`, or from `~/.omp/agent/.env` where `set-key` stored it. To use another key or region:
+
+```bash
+export AWS_BEARER_TOKEN_BEDROCK=<your workshop key>
+export AWS_REGION=eu-north-1
+```
+
+Your key works with these models; pick one with `--bedrock MODEL_ID` on `ftw.evaluate` or `--model MODEL_ID` on `ftw.generate`:
+
+| Model ID | Notes | USD per 1M tokens (in / out) |
+|---|---|---|
+| `zai.glm-5` | default | 1.20 / 3.84 |
+| `zai.glm-4.7` | faster, cheaper | 0.72 / 2.64 |
+| `openai.gpt-oss-120b-1:0` | cheapest | 0.15 / 0.60 |
+| `global.moonshotai.kimi-k3` | largest, most expensive | 3.00 / 15.00 |
+
+Each key has a budget of about €25.
+
 ## Setup
 
 Give the Podman VM 8 GB of memory. In the dev container:

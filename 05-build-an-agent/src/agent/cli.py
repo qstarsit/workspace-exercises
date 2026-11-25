@@ -1,5 +1,6 @@
 import argparse
 import logging
+import os
 from pathlib import Path
 
 from agent.config import (
@@ -34,7 +35,11 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
         "--workspace", type=Path, default=Path(), help="directory the agent may use"
     )
     parser.add_argument("--model", default=DEFAULT_MODEL_ID, help="Bedrock model ID")
-    parser.add_argument("--region", default=DEFAULT_REGION, help="AWS region")
+    parser.add_argument(
+        "--region",
+        default=os.environ.get("AWS_REGION", DEFAULT_REGION),
+        help="AWS region (default: $AWS_REGION or eu-north-1)",
+    )
     return parser.parse_args(argv)
 
 
