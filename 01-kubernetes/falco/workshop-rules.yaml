@@ -12,7 +12,7 @@ data:
           version: 0.1.0
 
     # Should fire whenever someone opens a shell (kubectl exec) in a pod
-    # in the shop namespace. It never does.
+    # in the shop namespace.
     - rule: Shell into shop pod
       desc: Someone ran kubectl exec into a pod in the shop namespace
       condition: >

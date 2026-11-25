@@ -3,8 +3,7 @@ kind: Policy
 # One event per request: long-running requests like exec also emit ResponseStarted
 omitStages: [RequestReceived, ResponseStarted]
 rules:
-  # kubectl exec/attach/port-forward use WebSockets, so they arrive as "get".
-  # Record them before the read-only filter below drops every get.
+  # Record pod exec/attach/port-forward requests.
   - level: Metadata
     resources:
       - group: ""

@@ -91,3 +91,20 @@ def test_entries_expire_after_configured_ttl(
         client.get(FARES_URL)
 
     assert cheapest.call_count == 2
+
+
+def test_zero_ttl_disables_the_cache(
+    monkeypatch: pytest.MonkeyPatch, cheapest: respx.Route
+) -> None:
+    def request_twice(ttl_seconds: str) -> None:
+        monkeypatch.setenv("HERMES_CACHE_TTL_SECONDS", ttl_seconds)
+        app = create_app(Settings(base_url=HERMES_URL, api_key=None, _env_file=None))
+        with TestClient(app) as client:
+            client.get(FARES_URL)
+            client.get(FARES_URL)
+
+    request_twice("300")
+    assert cheapest.call_count == 1
+
+    request_twice("0")
+    assert cheapest.call_count == 3

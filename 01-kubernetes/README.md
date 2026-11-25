@@ -1,14 +1,18 @@
 # Exercise 1: a broken Kubernetes app
 
-A small shop runs on a local k3d cluster: an `api` (podinfo) behind an nginx `frontend`, locked down with network policies, and watched by Falco. Nothing works quite as intended. Find out why, with `kubectl`, `k9s`, `sofka` and the agent (`omp`, which can talk to the cluster through its Kubernetes MCP server).
+A small shop runs on a local k3d cluster: an `api` (podinfo) behind an nginx `frontend`, locked down with network policies and watched by Falco. It does not work. Make it work, using `kubectl`, `k9s`, `sofka` and your agent (`omp`, which reaches the cluster through its Kubernetes MCP server).
 
-The cluster runs on your own machine, next to the dev container. The dev container only gets the cluster's kubeconfig, so the agent can change the cluster but nothing else on your machine.
+## Time budget
 
-## 1. Prepare Podman for k3d (once, on your machine)
+About 75 minutes: setup ~15 minutes (including host preparation), tasks ~60 minutes.
 
-k3d runs Kubernetes inside rootless Podman, and k3s needs the `cpuset` cgroup, which Podman does not hand out by default. Give the Podman VM at least 4 GB (`podman machine set --memory 4096` while it is stopped).
+## Setup
 
-### macOS
+### 1. Prepare Podman for k3d (once, on your machine)
+
+Give the Podman VM at least 4 GB (`podman machine set --memory 4096` while it is stopped).
+
+#### macOS
 
 ```bash
 brew install k3d
@@ -17,7 +21,7 @@ podman machine stop && podman machine start
 export DOCKER_HOST="unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
 ```
 
-### Linux
+#### Linux
 
 ```bash
 curl -fsSLo ~/.local/bin/k3d https://github.com/k3d-io/k3d/releases/download/v5.9.0/k3d-linux-amd64   # or -arm64
@@ -29,7 +33,7 @@ systemctl --user enable --now podman.socket
 export DOCKER_HOST="unix://$XDG_RUNTIME_DIR/podman/podman.sock"
 ```
 
-### Windows (PowerShell)
+#### Windows (PowerShell)
 
 ```powershell
 winget install k3d.k3d
@@ -38,11 +42,11 @@ podman machine stop; podman machine start
 $env:DOCKER_HOST = "npipe:////./pipe/podman-machine-default"
 ```
 
-Check: `podman info --format '{{.Host.CgroupControllers}}'` must list `cpuset`.
+Check: `podman info --format '{{.Host.CgroupControllers}}'` lists `cpuset`.
 
-## 2. Create the cluster (on your machine)
+### 2. Create the cluster (on your machine)
 
-You need this repository on your machine as well, not only in the dev container: clone or download it, then from its `01-kubernetes` folder:
+From the `01-kubernetes` folder of a local clone of this repository:
 
 ```bash
 k3d cluster create --config cluster/k3d.yaml
@@ -51,43 +55,39 @@ k3d kubeconfig get workshop
 
 Copy the kubeconfig that the second command prints.
 
-## 3. Connect the dev container
+### 3. Connect the dev container and deploy
 
 In the dev container terminal:
 
 ```bash
 set-kubeconfig        # paste the kubeconfig, then press Ctrl+D
-kubectl get nodes
-```
-
-## 4. Deploy and watch it break
-
-```bash
+kubectl get nodes     # check: 1 node, Ready
 kubectl apply -f falco/
 kubectl apply -f app/
-k9s                   # or: sofka
-```
-
-Then try the shop:
-
-```bash
 kubectl -n shop port-forward svc/frontend 8080:80 &
-curl -i http://127.0.0.1:8080/
 ```
 
-You should get the podinfo JSON. You get an error instead.
+## Tasks
 
-## 5. Your tasks
+Work with your agent; have it explain what it sees before it changes anything.
 
-1. **Make the shop work.** `curl http://127.0.0.1:8080/` through the frontend must return the podinfo JSON, and every network policy must stay in place: fix them, don't delete them. There is more than one problem.
-2. **Make the Falco rule fire.** The rule in `falco/workshop-rules.yaml` should raise a warning whenever someone runs `kubectl exec` in a pod in the `shop` namespace. Try it:
+1. **Make the shop work.**
+   Constraint: no NetworkPolicy may be deleted or made allow-all.
+   Accepted when `curl -i http://127.0.0.1:8080/` returns HTTP 200 with the podinfo JSON.
+
+2. **Make the Falco rule fire.** The rule `Shell into shop pod` must raise a warning whenever someone runs `kubectl exec` in a pod in the `shop` namespace.
+   After changing the rule, apply it and restart Falco:
    ```bash
-   kubectl -n shop exec deploy/api -- ls /
-   kubectl -n falco logs deploy/falco | grep "exec into shop pod"
+   kubectl apply -f falco/
+   kubectl -n falco rollout restart deploy/falco
    ```
-   Nothing appears. After changing the rule, apply it and restart Falco with `kubectl -n falco rollout restart deploy/falco`.
+   Accepted when, after `kubectl -n shop exec deploy/api -- ls /`, the command `kubectl -n falco logs deploy/falco | grep "exec into shop pod"` prints a line.
 
-Work with the agent: ask it to look at the cluster first and explain what it sees before it changes anything. Compare what it finds with what you see in k9s or sofka.
+## Done when
+
+- `curl -i http://127.0.0.1:8080/` returns HTTP 200 with the podinfo JSON.
+- Every NetworkPolicy from `app/2-network-policies.yaml` still exists and none allows all traffic.
+- A `kubectl exec` into a `shop` pod produces an `exec into shop pod` line in the Falco logs.
 
 ## Clean up
 

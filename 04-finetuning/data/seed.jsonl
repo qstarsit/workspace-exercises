@@ -1,0 +1,42 @@
+{"question":"cheapest flight from eindhoven to barcelona girona on 14 december","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"GRO","date_from":"2026-12-14","date_to":"2026-12-14"}}
+{"question":"goedkoopste vlucht eindhoven naar alicante in februari","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"ALC","date_from":"2027-02-01","date_to":"2027-02-28"}}
+{"question":"how much is dublin to manchester next week","answer":{"intent":"cheapest_fare","origin":"DUB","destination":"MAN","date_from":"2026-11-30","date_to":"2026-12-06"}}
+{"question":"vlucht van amsterdam naar dublin morgen","answer":{"intent":"cheapest_fare","origin":"AMS","destination":"DUB","date_from":"2026-11-26","date_to":"2026-11-26"}}
+{"question":"cheap flights charleroi to porto mid january","answer":{"intent":"cheapest_fare","origin":"CRL","destination":"OPO","date_from":"2027-01-11","date_to":"2027-01-20"}}
+{"question":"eindhoven naar rome fiumicino rond 5 maart","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"FCO","date_from":"2027-03-02","date_to":"2027-03-08"}}
+{"question":"what does stansted to bergamo cost this weekend","answer":{"intent":"cheapest_fare","origin":"STN","destination":"BGY","date_from":"2026-11-28","date_to":"2026-11-29"}}
+{"question":"prijs eindhoven malaga met kerst","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"AGP","date_from":"2026-12-24","date_to":"2026-12-26"}}
+{"question":"EIN-KRK 3 jan","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"KRK","date_from":"2027-01-03","date_to":"2027-01-03"}}
+{"question":"goedkoop vliegen van weeze naar faro, eind februari","answer":{"intent":"cheapest_fare","origin":"NRN","destination":"FAO","date_from":"2027-02-21","date_to":"2027-02-28"}}
+{"question":"flights from eindhoven to palma between 10 and 17 april","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"PMI","date_from":"2027-04-10","date_to":"2027-04-17"}}
+{"question":"vliegtickets eindhoven - lissabon","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"LIS","date_from":"2026-11-25","date_to":"2026-12-25"}}
+{"question":"cheapest flight luton to bucharest otopeni on tuesday","answer":{"intent":"cheapest_fare","origin":"LTN","destination":"OTP","date_from":"2026-12-01","date_to":"2026-12-01"}}
+{"question":"van eindhoven naar tenerife in de komende 2 weken","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"TFS","date_from":"2026-11-25","date_to":"2026-12-09"}}
+{"question":"cheapest fligt from amsterdam to malaga in januray","answer":{"intent":"cheapest_fare","origin":"AMS","destination":"AGP","date_from":"2027-01-01","date_to":"2027-01-31"}}
+{"question":"eindhoven naar boedapest volgende maand","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"BUD","date_from":"2026-12-01","date_to":"2026-12-31"}}
+{"question":"cheapest flight eindhoven to vienna in november","answer":{"intent":"cheapest_fare","origin":"EIN","destination":"VIE","date_from":"2026-11-25","date_to":"2026-11-30"}}
+{"question":"how has the price for eindhoven to alicante on 20 december changed?","answer":{"intent":"price_history","origin":"EIN","destination":"ALC","date_from":"2026-12-20","date_to":"2026-12-20"}}
+{"question":"prijsverloop dublin - edinburgh begin januari","answer":{"intent":"price_history","origin":"DUB","destination":"EDI","date_from":"2027-01-01","date_to":"2027-01-10"}}
+{"question":"is the fare from charleroi to marrakesh rising for march?","answer":{"intent":"price_history","origin":"CRL","destination":"RAK","date_from":"2027-03-01","date_to":"2027-03-31"}}
+{"question":"is de prijs van eindhoven naar napels gezakt voor dit weekend?","answer":{"intent":"price_history","origin":"EIN","destination":"NAP","date_from":"2026-11-28","date_to":"2026-11-29"}}
+{"question":"price history amsterdam to lisbon around 12 december","answer":{"intent":"price_history","origin":"AMS","destination":"LIS","date_from":"2026-12-09","date_to":"2026-12-15"}}
+{"question":"hoe ontwikkelt de prijs eindhoven - porto zich voor oud en nieuw","answer":{"intent":"price_history","origin":"EIN","destination":"OPO","date_from":"2026-12-31","date_to":"2027-01-01"}}
+{"question":"price trend stansted to dublin, next 10 days","answer":{"intent":"price_history","origin":"STN","destination":"DUB","date_from":"2026-11-25","date_to":"2026-12-05"}}
+{"question":"prijsgeschiedenis weeze naar alicante op 2 februari","answer":{"intent":"price_history","origin":"NRN","destination":"ALC","date_from":"2027-02-02","date_to":"2027-02-02"}}
+{"question":"is €25 for eindhoven to bergamo on 11 december a good deal?","answer":{"intent":"deal_check","origin":"EIN","destination":"BGY","date_from":"2026-12-11","date_to":"2026-12-11"}}
+{"question":"is 45 euro voor eindhoven naar malaga in januari goedkoop?","answer":{"intent":"deal_check","origin":"EIN","destination":"AGP","date_from":"2027-01-01","date_to":"2027-01-31"}}
+{"question":"dublin to krakow 30 eur on friday, good price?","answer":{"intent":"deal_check","origin":"DUB","destination":"KRK","date_from":"2026-11-27","date_to":"2026-11-27"}}
+{"question":"goede deal? charleroi - sevilla 60 euro volgende week","answer":{"intent":"deal_check","origin":"CRL","destination":"SVQ","date_from":"2026-11-30","date_to":"2026-12-06"}}
+{"question":"is 110 euro duur voor amsterdam naar tenerife met kerst?","answer":{"intent":"deal_check","origin":"AMS","destination":"TFS","date_from":"2026-12-24","date_to":"2026-12-26"}}
+{"question":"i found manchester to malaga for 39 pounds late january, is that good?","answer":{"intent":"deal_check","origin":"MAN","destination":"AGP","date_from":"2027-01-21","date_to":"2027-01-31"}}
+{"question":"eindhoven naar valencia 20 euro, koopje?","answer":{"intent":"deal_check","origin":"EIN","destination":"VLC","date_from":"2026-11-25","date_to":"2026-12-25"}}
+{"question":"is 15 euros cheap for bergamo to eindhoven tomorrow","answer":{"intent":"deal_check","origin":"BGY","destination":"EIN","date_from":"2026-11-26","date_to":"2026-11-26"}}
+{"question":"where can I fly from eindhoven this weekend","answer":{"intent":"explore","origin":"EIN","destination":null,"date_from":"2026-11-28","date_to":"2026-11-29"}}
+{"question":"waar kan ik heen vanaf amsterdam in maart?","answer":{"intent":"explore","origin":"AMS","destination":null,"date_from":"2027-03-01","date_to":"2027-03-31"}}
+{"question":"cheap destinations from charleroi in december","answer":{"intent":"explore","origin":"CRL","destination":null,"date_from":"2026-12-01","date_to":"2026-12-31"}}
+{"question":"goedkope bestemmingen vanaf eindhoven met kerst","answer":{"intent":"explore","origin":"EIN","destination":null,"date_from":"2026-12-24","date_to":"2026-12-26"}}
+{"question":"anywhere cheap from dublin next week","answer":{"intent":"explore","origin":"DUB","destination":null,"date_from":"2026-11-30","date_to":"2026-12-06"}}
+{"question":"waarheen vanaf weeze, eind januari?","answer":{"intent":"explore","origin":"NRN","destination":null,"date_from":"2027-01-21","date_to":"2027-01-31"}}
+{"question":"explore from stansted around 1 february","answer":{"intent":"explore","origin":"STN","destination":null,"date_from":"2027-01-29","date_to":"2027-02-04"}}
+{"question":"vanaf eindhoven weg op vrijdag, waar kan ik heen","answer":{"intent":"explore","origin":"EIN","destination":null,"date_from":"2026-11-27","date_to":"2026-11-27"}}
+{"question":"where can i fly from eindhoven","answer":{"intent":"explore","origin":"EIN","destination":null,"date_from":"2026-11-25","date_to":"2026-12-25"}}
