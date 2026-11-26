@@ -49,6 +49,8 @@ Do not edit `tests/acceptance.py` or the `test_acceptance_*.py` files.
 
 ## Tasks
 
+Implement the following features:
+
 ### 1. `search_code(pattern, path_glob=None, max_results=50)`
 
 Searches file contents in the workspace with ripgrep and returns `path:line:text` lines, capped at `max_results` with a count of what was left out. Nothing outside the workspace is searched.
