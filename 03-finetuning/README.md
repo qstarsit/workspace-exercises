@@ -1,6 +1,6 @@
-# Exercise 4: distil GLM-5 into a tiny local model
+# Exercise 3: distil GLM-5 into a tiny local model
 
-Fare Watch (exercise 3) wants a search box where people type a flight question in plain English or Dutch. Before it can call Hermes, the question has to become a structured query:
+Fare Watch (exercise 2) wants a search box where people type a flight question in plain English or Dutch. Before it can call Hermes, the question has to become a structured query:
 
 ```
 "cheapest flight eindhoven to malaga mid december"

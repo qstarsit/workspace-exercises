@@ -1,6 +1,6 @@
-# Exercise 5: build your own coding agent
+# Exercise 4: build your own coding agent
 
-This folder holds a small working coding agent: a Converse loop on Bedrock with two read-only tools. Give it tools to search, test and edit code safely, then let it fix part of exercise 3.
+This folder holds a small working coding agent: a Converse loop on Bedrock with two read-only tools. Give it tools to search, test and edit code safely, then let it fix part of exercise 2.
 
 ## Bedrock
 
@@ -27,7 +27,7 @@ Each key has a budget of about €25.
 ```bash
 uv sync
 uv run pytest      # only tests/test_acceptance_*.py fail
-uv run agent "Summarise what this repository does" --workspace ../03-fastapi-feature
+uv run agent "Summarise what this repository does" --workspace ../02-fastapi-feature
 ```
 
 Do not edit `tests/acceptance.py` or the `test_acceptance_*.py` files.
@@ -69,10 +69,10 @@ Replaces `old` with `new` when it occurs exactly once, after showing a diff and 
 
 Done when `uv run pytest tests/test_acceptance_edit_file.py` passes.
 
-### 4. Capstone: fix exercise 3 with your agent
+### 4. Capstone: fix exercise 2 with your agent
 
 ```bash
-rsync -a --exclude .venv ../03-fastapi-feature/ /tmp/fare-watch/
+rsync -a --exclude .venv ../02-fastapi-feature/ /tmp/fare-watch/
 (cd /tmp/fare-watch && uv sync)
 uv run agent "Make tests/test_feature_cache.py pass. Follow task 3 in README.md and \
 the existing structure. Do not edit the tests." --workspace /tmp/fare-watch

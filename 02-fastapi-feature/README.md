@@ -1,4 +1,4 @@
-# Exercise 3: Add features to a FastAPI service
+# Exercise 2: Add features to a FastAPI service
 
 Fare Watch is a small FastAPI service on top of [Hermes](https://hermes.brinkhorst.dev/docs), a read-only API of observed Ryanair fares. Add a deal check, a price trend and an upstream cache. Follow the existing structure and do not edit the tests.
 
